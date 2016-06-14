@@ -9,7 +9,6 @@ words = ("земля", "луна", "сатурн", "марс", "венера")
 word = random.choice(words)
 proverka = word
 letters = len(word)
-letter = random.randrange(letters)
 i = 4
 print("Я загадал некоторое слово на русском языке. В нём ", letters, " букв(/-ы).")
 print("У Вас есть 5 попыток угадать буквы в этом слове!")
