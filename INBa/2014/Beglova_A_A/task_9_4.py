@@ -7,7 +7,6 @@
 import random
 words = ("земля", "луна", "сатурн", "марс", "венера")
 word = random.choice(words)
-proverka = word
 letters = len(word)
 i = 4
 print("Я загадал некоторое слово на русском языке. В нём ", letters, " букв(/-ы).")
